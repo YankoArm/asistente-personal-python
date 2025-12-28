@@ -1,42 +1,32 @@
 # Asistente Personal en Python
 
-Aplicación de escritorio desarrollada en Python que permite gestionar tareas y notas mediante:
+Asistente de línea de comandos y GUI para gestionar **tareas** y **notas**, desarrollado en Python.
+Permite al usuario crear, listar, buscar y marcar tareas o notas tanto desde la consola como desde una interfaz gráfica con Tkinter.
 
-- modo consola  
-- interfaz gráfica con Tkinter
-
-Este proyecto forma parte de mi portfolio personal y está enfocado al aprendizaje práctico de Python y diseño modular.
+Este proyecto forma parte de mi portfolio personal y está orientado al aprendizaje práctico de Python.
 
 ---
 
-## 📌 Estado del proyecto
-
-:construction: Proyecto en desarrollo 
-
-Puede no estar completo en todas las funcionalidades, pero incluye lo esencial para gestionar tareas y notas.
-
----
-
-## 🧠 Descripción
+## 🧠 Descripción general
 
 El asistente permite:
 
-- crear notas rápidas
-- listar notas
-- buscar notas
-- crear tareas pendientes
-- listar tareas
-- marcar tareas como hechas
-
-El usuario puede interactuar con la aplicación desde consola o mediante la interfaz gráfica (Tkinter).
+- Crear notas
+- Listar notas
+- Buscar notas por texto
+- Crear tareas pendientes
+- Listar todas las tareas
+- Listar tareas pendientes
+- Marcar tareas como hechas
+- Interactuar tanto por consola como por una GUI basada en Tkinter
 
 ---
 
 ## 🛠 Tecnologías y herramientas
 
-- Python 3 (recomendado >= 3.10)  
-- Tkinter (GUI)  
-- Módulos estándar de Python  
+- Python 3.10+  
+- Tkinter para la interfaz gráfica  
+- Librerías estándar de Python  
 - JSON para persistencia de datos
 
 ---
@@ -88,18 +78,35 @@ pip install -r requirements.txt
 
 ## ▶️ Ejecución
 
-Modo consola
+📌 Modo consola
 
-python3 main.py
-Interfaz gráfica (GUI)
-python3 main_gui.py
+Para usar el asistente desde la terminal:
+
+- python3 main.py
+  
+🖼 Interfaz gráfica (GUI)
+
+Para abrir la interfaz gráfica:
+
+- python3 main_gui.py
 
 ---
 
-## 📌 Notas de uso
+## 📌 Uso básico
 
-- En consola, sigue las instrucciones que se muestran al iniciar.
-- En la GUI, usa los botones para añadir y completar tareas.
+- Comandos consola
+
+nota <texto> → crear una nota
+notas → listar todas las notas
+buscar <texto> → buscar notas
+tarea <texto> → crear una tarea
+tareas → listar todas las tareas
+pendientes → listar solo tareas pendientes
+hecha <id> → marcar tarea como hecha
+
+Puedes ver la ayuda en consola con:
+
+- help
 
 ---
 
