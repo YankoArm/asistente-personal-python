@@ -11,7 +11,8 @@ Este proyecto forma parte de mi portfolio personal y está enfocado al aprendiza
 
 ## 📌 Estado del proyecto
 
-:construction: Proyecto en desarrollo  
+:construction: Proyecto en desarrollo 
+
 Puede no estar completo en todas las funcionalidades, pero incluye lo esencial para gestionar tareas y notas.
 
 ---
