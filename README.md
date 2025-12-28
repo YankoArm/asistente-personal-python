@@ -71,7 +71,7 @@ asistente-personal-python/
 
 Clona el repositorio:
 
-
+```md
 git clone https://github.com/YankoArm/asistente-personal-python.git
 cd asistente-personal-python
 python3 -m venv venv
@@ -79,6 +79,7 @@ source venv/bin/activate         # macOS / Linux
 venv\Scripts\activate            # Windows
 pip install -r requirements.txt
 
+```
 ---
 
 (Actualmente este proyecto no tiene dependencias externas más allá de lo que incluye Python por defecto.)
