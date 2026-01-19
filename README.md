@@ -1,6 +1,6 @@
 # Asistente Personal en Python
 
-Asistente de línea de comandos y GUI para gestionar **tareas** y **notas**, desarrollado en Python.
+GUI en Tkinter para gestión de tareas (y modo consola para tareas y notas), desarrollado en Python.
 Permite al usuario crear, listar, buscar y marcar tareas o notas tanto desde la consola como desde una interfaz gráfica con Tkinter.
 
 Este proyecto forma parte de mi portfolio personal y está orientado al aprendizaje práctico de Python.
