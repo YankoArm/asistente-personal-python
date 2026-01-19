@@ -95,13 +95,13 @@ Para abrir la interfaz gráfica:
 
 - Comandos consola
 
-nota <texto> → crear una nota
-notas → listar todas las notas
-buscar <texto> → buscar notas
-tarea <texto> → crear una tarea
-tareas → listar todas las tareas
-pendientes → listar solo tareas pendientes
-hecha <id> → marcar tarea como hecha
+- `nota` <texto> → crear una nota
+- `notas` → listar todas las notas
+- `buscar` <texto> → buscar notas
+- `tarea` <texto> → crear una tarea
+- `tareas` → listar todas las tareas
+- `pendientes` → listar solo tareas pendientes
+- `hecha` <id> → marcar tarea como hecha
 
 Puedes ver la ayuda en consola con:
 
