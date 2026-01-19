@@ -105,7 +105,7 @@ Para abrir la interfaz gráfica:
 
 Puedes ver la ayuda en consola con:
 
-- help
+- ayuda
 
 ---
 
