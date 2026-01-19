@@ -118,5 +118,4 @@ Puedes ver la ayuda en consola con:
 
 📝 Licencia
 
-- Este proyecto está abierto para estudio y práctica personal.
-- Si decides hacerlo público, puedes agregar una licencia apropiada.
+- MIT
